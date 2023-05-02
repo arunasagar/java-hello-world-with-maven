@@ -56,6 +56,15 @@
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
   </properties>
+  
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <configuration>
+        <source>1.7</source>
+        <target>1.7</target>
+    </configuration>
+</plugin>
 
 </project>
 
